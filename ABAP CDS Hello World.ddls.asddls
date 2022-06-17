@@ -4,6 +4,6 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'hello'
-define view Z02_Test_that_will_be_deleted as select from sbook {
+define view Z02HELLO from sbook {
     key customid
 }
