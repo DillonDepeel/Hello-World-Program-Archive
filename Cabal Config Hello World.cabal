@@ -1,0 +1,2 @@
+lastName :: String -> "hello world"
+export string
