@@ -1,0 +1,13 @@
+@namespace("Dillon.Depeel")
+/**
+Protocol Greetings
+*/
+protocol HelloWorld {
+	record Greeting{
+		string message;
+	}
+	error Curse {
+		string message;
+	}
+	Greeting hello(Greeting greeting) throws Curse;
+}
