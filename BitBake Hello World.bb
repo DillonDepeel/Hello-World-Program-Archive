@@ -1,4 +1,4 @@
-$bitbake
+$-bitbake
 PN = 'printhello'
 PV = '1'
 
