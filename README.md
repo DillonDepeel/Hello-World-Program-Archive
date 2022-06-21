@@ -4,3 +4,8 @@ I have put the Hello world programs in order alphabetically for ease of access.
 I am first going to do the languages that Github supports, then perhaps the other languages.
  The Hello World program supposedly first appeared in 1972 in Brian Kernighan’s book A Tutorial Introduction to the Language B
 Please feel frree to add code I may have missed ヽ(ヅ)ノ
+
+
+##Contributors:
+Thanks to,
+GameTec-live for providing programs in python, rust and bash script as well as helping with the pull request template.
