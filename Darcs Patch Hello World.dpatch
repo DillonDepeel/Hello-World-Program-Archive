@@ -1,0 +1,5 @@
+$ darcs log --last=1 -v
+Thu Sep 16 15:37:14 BST 2010  Eric Kow <kowey@darcs.net>
+* Say hello.
+  hunk ./A 3
+  +hello
