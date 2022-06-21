@@ -6,6 +6,6 @@ I am first going to do the languages that Github supports, then perhaps the othe
 Please feel frree to add code I may have missed ヽ(ヅ)ノ
 
 
-##Contributors:
+## Contributors:
 Thanks to,
 GameTec-live for providing programs in python, rust and bash script as well as helping with the pull request template.
