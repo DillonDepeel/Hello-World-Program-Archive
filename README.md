@@ -8,4 +8,6 @@ Please feel frree to add code I may have missed ヽ(ヅ)ノ
 
 ## Contributors:
 Thanks to,
-GameTec-live for providing programs in python, rust and bash script as well as helping with the pull request template.
+
+### GameTec-live 
+for providing programs in python, rust and bash script as well as helping with the pull request template.
