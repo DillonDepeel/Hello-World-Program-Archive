@@ -1,0 +1,3 @@
+data = {"text": "hello", "meta": "world"}
+for d in data:
+    print(d)
