@@ -1,0 +1,1 @@
+declare message "Hello World!!!";
