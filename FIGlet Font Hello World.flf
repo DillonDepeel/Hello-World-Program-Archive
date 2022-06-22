@@ -1,0 +1,2 @@
+FigletFont.convertOneLine("hello");
+    System.out.println(asciiArt1);
