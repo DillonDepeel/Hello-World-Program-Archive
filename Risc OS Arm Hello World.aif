@@ -1,0 +1,5 @@
+SWI "OS_WriteS"
+EQUS "Hello World!"
+EQUB 0
+ALIGN
+MOV PC,R14
