@@ -1,0 +1,2 @@
+BlankClip()
+Subtitle("Hello, world!")
