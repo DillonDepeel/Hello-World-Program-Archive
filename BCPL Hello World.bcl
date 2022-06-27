@@ -1,0 +1,6 @@
+GET "libhdr"
+
+LET start() = VALOF
+$( writes("Hello world*N")
+   RESULTIS 0
+$)
