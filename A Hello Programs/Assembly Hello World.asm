@@ -17,6 +17,3 @@ _start:
 	mov eax,1            ; The system call for exit (sys_exit)
 	mov ebx,0            ; Exit with return code of 0 (no error)
 	int 80h
-© 2022 GitHub, Inc.
-Terms
-Privacy
