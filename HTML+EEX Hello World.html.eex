@@ -1,0 +1,19 @@
+defmodule <%= @module %> do
+  @moduledoc """
+  Documentation for <%= @module %>.
+  """
+
+  @doc """
+  Hello world.
+
+  ## Examples
+
+      iex> <%= @module %>.hello()
+      :world
+
+  """
+  @spec hello :: :world
+  def hello do
+    :world
+  end
+end
