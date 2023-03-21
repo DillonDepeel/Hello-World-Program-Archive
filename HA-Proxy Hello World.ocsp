@@ -1,0 +1,5 @@
+global
+   master-worker
+
+program echo
+   command echo "hello, world"
