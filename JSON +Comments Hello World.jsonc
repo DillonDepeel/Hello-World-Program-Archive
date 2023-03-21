@@ -1,0 +1,5 @@
+[
+		"HelloWorldLayer.__tostring()",
+		{ "trigger": "HelloWorldLayer.New()","contents": "HelloWorldLayer.New()"},
+		{ "trigger": "HelloWorldLayer.New()","contents": "HelloWorldLayer.New()"},
+	]
