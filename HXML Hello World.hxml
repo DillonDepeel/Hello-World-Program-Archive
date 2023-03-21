@@ -1,0 +1,6 @@
+-neko HelloWorld.n
+-main HelloWorld
+-debug
+-cp ..
+-cp c:\flash\neash
+-cp c:\flash\nme
