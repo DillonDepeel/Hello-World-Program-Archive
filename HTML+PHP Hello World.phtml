@@ -1,0 +1,10 @@
+<?php
+$hello = $block->getHelloWorld()
+$helloArray = $block->helloArray();
+?>
+<?php foreach ($helloArray as $helloWorld): ?>
+<ul>
+	<li><?php echo $helloWorld; ?></li>
+</ul>
+<?php endforeach; ?>
+<h1><?php echo $hello; ?></h1>
