@@ -1,1 +1,1 @@
-print "Hello world!"
+format "%" "Hello world!"
