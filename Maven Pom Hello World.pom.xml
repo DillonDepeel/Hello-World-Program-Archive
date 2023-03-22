@@ -1,0 +1,19 @@
+executions>
+    <execution>
+        <id>echo-maven-plugin-1</id>
+        <phase>package</phase>
+        <goals>
+            <goal>echo</goal>
+        </goals>
+        <configuration>
+            <message>
+                Hello, world
+                Embed a line break: ${line.separator}
+                ArtifactId is ${project.artifactId}
+            </message>
+            <level>INFO</level>
+            <toFile>/logs/log-echo.txt</toFile>
+            <append>true</append>
+        </configuration>
+    </execution>
+</executions>
