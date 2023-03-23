@@ -1,40 +1,7 @@
-MODULE Main;
-IMPORT Wr, Stdio;
+MODULE Goodbye EXPORTS Main;
 
-PROCEDURE P () =
-  BEGIN
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  END P;
-
-PROCEDURE Q () RAISES { Wr.Failure } =
-  BEGIN
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  END Q;
-
-PROCEDURE R () RAISES ANY =
-  BEGIN
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  END R;
-
-PROCEDURE S () =
-  <* FATAL Wr.Failure *>
-  BEGIN
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  END S;
-
-PROCEDURE T () =
-  <* FATAL ANY *>
-  BEGIN
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  END T;
+IMPORT IO;
 
 BEGIN
-  EVAL P; EVAL Q; EVAL R; EVAL S; EVAL T;
-
-  TRY
-    Wr.PutText (Stdio.stdout, "Hello world!\n");
-  EXCEPT Wr.Failure =>
-  END;
-
-  Wr.PutText (Stdio.stdout, "Hello world!\n");
-END Main.
+  IO.Put("Hello world!\n");
+END Goodbye.
