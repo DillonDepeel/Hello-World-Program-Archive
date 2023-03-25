@@ -1,8 +1,2 @@
-name: Hello World
-on: workflow_dispatch
-jobs:
-  example-job:
-    runs-on: self-hosted
-    steps:
-      - name: example-step
-        run: echo "Hello World!"
+- name: Hello world action
+  uses: ks6088ts/handson-github-actions@v0.0.1
